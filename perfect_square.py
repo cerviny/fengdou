@@ -1,6 +1,5 @@
 import math
 
-
 def perfect_square(num: int) -> bool:
     """
     Check if a number is perfect square number or not
@@ -20,8 +19,6 @@ def perfect_square(num: int) -> bool:
     """
     return math.sqrt(num) * math.sqrt(num) == num
 
-
 if __name__ == "__main__":
     import doctest
-
     doctest.testmod()
